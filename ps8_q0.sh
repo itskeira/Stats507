@@ -30,7 +30,7 @@ cat ps8_q0.sh
 date
 
 cd /home/itskeira/Stats507/
-python cv_funcs.py $n_procs
+python ps8_q0.py $n_procs
 
 
 date
