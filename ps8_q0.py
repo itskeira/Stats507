@@ -24,10 +24,10 @@ import warnings
 warnings.filterwarnings("ignore")
 
 ## Question 0 - Slurm
-df = pd.read_csv("train.csv")
+df = pd.read_csv("~/itskeira/Stats507/train.csv")
 df[['material']] = df_u[['material']]
 df = df.drop_duplicates(subset=['material'])
-df_u = pd.read_csv("unique_m.csv")
+df_u = pd.read_csv("~/itskeira/Stats507/unique_m.csv")
 u_df = df_u.drop_duplicates(subset=['material'])
 
 # +
